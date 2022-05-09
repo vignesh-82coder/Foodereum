@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.nav-link{
+    font-family: Helvetica;
+    color: #000000 !important;
+    margin-right: 5px; margin-left: 5px;
+}
+
+.nav-link:hover{
+    color: black !important;
+    font-weight: bold;
+    border-radius: 10px !important;
+    background-color: rgb(255, 238, 0);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.searchBox {
+    width: 30%;
+    border: 0px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.searchBtn {
+    width: 50%;
+    border: 0px;
+    height: 46px;
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 238, 0);
+    margin-left: 40px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.searchBtn:hover {
+    color: rgb(255, 238, 0);
+    background-color: rgb(0, 0, 0);
+    transition: background-color 0.5s ease;
+}
+
+.formbtn {
+    color: rgb(255, 238, 0);
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border: 0px;
+    height: 35px;
+    margin: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    width: 80%;
+    border-radius: 5px 5px 5px 5px;
+    z-index: inherit;
+}
+
+.formbtn:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 238, 0);
+    transition: background-color 0.5s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.30);
+}
+
+@media only screen and (max-width: 600px) {
+    .searchBox {
+        width: 80%;
+    }
+
+    .searchBtn {
+        width: 10%;
+    }
+
+    .cardstyle {
+        width: 90%;
+    }
+
+    .fixedcardstyle {
+        width: 90%;
+    }
+
+    .mycardstyle {
+        width: 90%;
+    }
+
+    .alertcontent {
+        width: 90%;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        border-radius: 7px 7px 7px 7px;
+    }
+}
+
+.customalert {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.alertcontent {
+    width: 60%;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.violetgradient {
+    margin: 0px;
+    background-image: linear-gradient(to right, #ebf421, #f4e222, #f8d029, #fabf32, #f8af3c);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .loginformcard {
+        width: 85%;
+    }
+}
+
+@keyframes drift {
+    from {
+        transform: rotate(0deg);
+    }
+
+    from {
+        transform: rotate(360deg);
+    }
+}
