@@ -35,8 +35,9 @@ $color="navbar-light orange darken-4";
                 <div id="alertText"> &nbsp </div>
                 <img id="qrious">
                 <div id="bottomText" style="margin-top: 10px; margin-bottom: 15px;"> &nbsp </div>
-               <a href="manage.php"> <button id="closebutton" class="formbtn"> Send Notification </button> </a>
-            </div>
+                <a href="mailto:foodereum@googlegroups.com"> <button id="closebutton" class="formbtn"> Mail QR Code </button> </a>
+                <a href="manage.php"> <button id="closebutton" class="formbtn"> Send Notification </button> </a>
+              </div>
         </div>
     </center>
 
